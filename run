@@ -1,0 +1,4 @@
+#! /bin/bash
+username=${whoami}
+userid=$(id -u $username)
+docker run -it --rm --user root -p 8888:8888 -e NB_UID=$userid -e NB_GID=$userid -v $(pwd)/work:/home/jovyan/work:z jupyter/gis-notebook
