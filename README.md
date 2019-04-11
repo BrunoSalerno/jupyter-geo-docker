@@ -1,2 +1,2 @@
 # jupyter-geo-docker
-Docker image of jupyter from datascience-notebook with some geo packages
+Docker image with datascience-notebook's jupyter and some geo packages
