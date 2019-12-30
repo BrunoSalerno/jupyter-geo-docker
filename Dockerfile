@@ -13,8 +13,11 @@ RUN apt-get update && \
     libgdal-dev
 
 RUN conda install gdal
-
 RUN conda install descartes
 RUN conda install geopandas
 RUN conda install networkx
 RUN conda install osmnx
+
+RUN pip install peartree
+RUN pip install urbanaccess
+RUN pip install momepy
