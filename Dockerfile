@@ -1,5 +1,5 @@
 # Start from a core stack version
-FROM jupyter/datascience-notebook:9f9e5ca8fe5a
+FROM jupyter/datascience-notebook
 # Install in the default python3 environment
 
 USER root
