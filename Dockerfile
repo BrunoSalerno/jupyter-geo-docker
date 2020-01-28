@@ -17,6 +17,8 @@ RUN conda install descartes
 RUN conda install geopandas
 RUN conda install networkx
 RUN conda install osmnx
+RUN conda install contextily
+RUN conda install geoplot
 
 RUN pip install peartree
 RUN pip install urbanaccess
